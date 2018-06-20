@@ -1,0 +1,6 @@
+framework module Pods_MapWithData {
+  umbrella header "Pods-MapWithData-umbrella.h"
+
+  export *
+  module * { export * }
+}
