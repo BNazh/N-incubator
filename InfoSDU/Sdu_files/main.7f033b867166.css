@@ -1,0 +1,52 @@
+html, body, .my_base {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #F1F1F4;
+  background-image: url("../images/sdu_only_white.fd1f3d486537.svg");
+}
+
+.breadcrumb-row{
+  margin-right: 15px;
+}
+
+.breadcrumb{
+  margin: 10px 0 10px 15px;
+  background: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.my_base .static-container-wrapper .static-container .title {
+  margin: 0px 0 20px;
+}
+.my_base .sidebar-navbar ul li {
+  padding: 4px;
+}
+
+.my_base .content-container {
+  background-color: white;
+  margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px solid #BFCFDA;
+  border-right: 1px solid #BFCFDA;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="2">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="NkFrcDVxVUxHNSY9ZD0FP30zEjplHjF8YA1GRQ08BBpkORMiR0YTBA==">
+    <title>Bad Request (#400)</title>
+    <link href="/assets/ea52ccb9/themes/blue/pace-theme-flash.css" rel="stylesheet">
+<link href="/assets/ea2a4a52/css/bootstrap.css" rel="stylesheet">
+<link href="/assets/b9bcb6f4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<link href="/compiled/css/main1.css" rel="stylesheet">
+<link href="/compiled/css/monocle.css" rel="stylesheet">
+<link href="/css/responsive.css" rel="stylesheet">
+<link href="/css/flipclock.css" rel="stylesheet">
+<script type="text/javascript">var inputmask_253f2589 = {"mask":"+ 7(999)999-99-99"};
+</script></head>
+<body>
+<script>
+	isLogged = false</script>
+<script type="text/javascript">window.paceOptions={"ajax":{"trackMethods":["GET","POST"]}}</script>		
+		
+<div class='logWrap'>
+	<div class='logWrap-x'>
+		✕
+	</div>
+	<div class='logWrap-form'>
+		<div class='registration'>
+			<div id='registration_success'></div>
+			<p class='logWrap-title'>Регистрация</p>
+			<p class="logWrap-bonus">После регистрации вы получите бесплатно 10 мин. связи для теста:</p>
+			<div id='notice-menu'>
+				Вы выбрали тариф <span>"TURBO"</span>
+			</div>
+			<form id="new_user_form" class="simple_form new_user" action="/ru/registration" method="post">
+<input type="hidden" name="_csrf" value="NkFrcDVxVUxHNSY9ZD0FP30zEjplHjF8YA1GRQ08BBpkORMiR0YTBA==">			
+				<div class="form-group field-user-email required">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="text" id="user-email" class="string email optional form-control" name="User[email]" placeholder="Введите ваш email"><div class="help-block"></div></div></div>
+</div><div class="form-group field-useradditional-site_url required">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="text" id="useradditional-site_url" class="form-control" name="UserAdditional[site_url]" placeholder="www.example.com"><div class="help-block"></div></div></div>
+</div><div class="form-group field-useradditional-fullname required">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="text" id="useradditional-fullname" class="form-control" name="UserAdditional[fullname]" maxlength="60" placeholder="Введите ваше имя"><div class="help-block"></div></div></div>
+</div><div class="form-group field-useradditional-phone required">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="text" id="useradditional-phone" class="form-control" name="UserAdditional[phone]" placeholder="Введите телефон" data-plugin-inputmask="inputmask_253f2589"><div class="help-block"></div></div></div>
+</div><div class="form-group field-userscoupons-hash">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="text" id="userscoupons-hash" class="form-control" name="UsersCoupons[hash]" maxlength="60" placeholder="Код купона (если есть)"><div class="help-block"></div></div></div>
+</div><input type="hidden" id="modal_tax" name="plan" value="1">				
+				<input class="btn button logWrap_submit" name="commit" type="submit" value="Подключить" />
+			</form>
+			<div class='logWrap-recover'>
+				<a class='already_user' href='#'>Являетесь пользователем?</a>
+			</div>
+		</div>
+		
+		
+		<div class='password_recover' style="display:none">
+			<div id="front_recover_success"></div>
+			<p class='logWrap-title'>Восстановление пароля</p>
+			<div id='notice-recover'></div>
+			<form id="recover_form" class="simple_form new_user" action="/ru/password-refresh" method="post">
+<input type="hidden" name="_csrf" value="NkFrcDVxVUxHNSY9ZD0FP30zEjplHjF8YA1GRQ08BBpkORMiR0YTBA==">				<div class="form-group field-loginformrecover-email required">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="text" id="loginformrecover-email" class="string email optional form-control" name="LoginFormRecover[email]" placeholder="Введите ваш email"><div class="help-block"></div></div></div>
+</div>			
+				<input class="btn button btn-recover" name="commit" type="submit" value="Напомнить" />
+			</form>
+			<div class='logWrap-recover'>
+				<a class='remember invalid' href='#'>Вспомнили пароль?</a>
+			</div>
+		</div>
+
+		<div class='enter collapse' id="enter">
+			<p class='logWrap-title'>Вход</p>
+			<div id='notice-enter'></div>
+			<div class='enter-form'>
+				
+				
+				<form id="login_form" class="simple_form new_user" action="/ru/login" method="post">
+<input type="hidden" name="_csrf" value="NkFrcDVxVUxHNSY9ZD0FP30zEjplHjF8YA1GRQ08BBpkORMiR0YTBA=="><div class="form-group field-loginform-email required">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="text" id="loginform-email" class="string email optional form-control" name="LoginForm[email]" placeholder="Введите ваш email"><div class="help-block"></div></div></div>
+</div><div class="form-group field-loginform-password required">
+ <div class="form-group email optional user_email"><div class="col-sm-12"><input type="password" id="loginform-password" class="string email optional form-control" name="LoginForm[password]" placeholder="Пароль"><div class="help-block"></div></div></div>
+</div><input class="btn button btn-sgn-in" name="commit" onClick="ga('send','event','Account','SignIn',null);" type="submit" value="Войти" /></form>			</div>
+			<div class='logWrap-recover'>
+				<a class='recover' href='#'>Забыли пароль?</a>
+			</div>
+			<div class='logWrap-recover'>
+				<a class='want_try' href='/registration'>Хочу попробовать!</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+		
+<div class="wrap header">
+	<div class="container header" style="position: relative">
+		<div class="col-xs-12 header">
+			
+			<a class="login-enter" href="#">ВХОД С ПАРОЛЕМ</a>			<a href="/registration">РЕГИСТРАЦИЯ</a>		</div>
+		
+		<!--LOGO-->
+		<div class="logo">
+			<a href="/"><img src="/css/images/design/logo.png" alt=""></a>		</div>
+	</div>
+</div>	
+		
+		
+
+<div class="front_bg"></div>
+<div class='info-content'>
+	<div class="content front-info site-error">
+		<h1 class="fts-0">Bad Request (#400)</h1>
+		
+		<p>Данной страницы не существует. Возможно страница было удалена.</p>
+	</div>
+</div>
+	
+		
+
+
+
+
+
+		
+<div class="wrap footer">
+	<div class="conntainer footer">
+		
+		<center><span class="sp1">ПОДКЛЮЧИТЕСЬ СЕЙЧАС И ПОЛУЧИТЕ 10 МИНУТ ОБЩЕНИЯ
+		С ВАШИМИ КЛИЕНТАМИ АБСОЛЮТНО БЕСПЛАТНО.</span></center>
+		
+		<center><button type="button" class="btn btn-lg btn_install2">ПОДКЛЮЧИТЬ БЕСПЛАТНО</button> </center>
+		
+		
+		
+	</div>
+	<div class="footer-row">
+		<span>© 2014-2016  Smart Call. <a href="/uploads/Dogovor_oferty_07.12.2015.pdf">ДОГОВОР ОФЕРТЫ</a> </span>
+	</div>
+</div>
+	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-70833469-1', 'auto');
+  ga('send', 'pageview');
+</script>		
+<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter36730895 = new Ya.Metrika({id:36730895, webvisor:true, clickmap:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/36730895" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+						
+<script src="/assets/13970aea/jquery.js"></script>
+<script src="/assets/afc0a746/yii.js"></script>
+<script src="/assets/ea2a4a52/js/bootstrap.js"></script>
+<script src="/assets/b9bcb6f4/jquery-ui.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/jquery.fullPage.min.js"></script>
+<script src="/js/main_page1.js"></script>
+<script src="https://smartcall.kz/js/smartcall.js?smartcall_code=z-x6tmWR7e9xy-6aiHjj_XFhAnH77VUz"></script>
+<script src="/assets/ea52ccb9/pace.js"></script>
+<script src="/assets/afc0a746/yii.validation.js"></script>
+<script src="/assets/25cf5748/jquery.inputmask.bundle.js"></script>
+<script src="/assets/afc0a746/yii.activeForm.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+$("#useradditional-phone").inputmask(inputmask_253f2589);
+
+jQuery('#new_user_form').yiiActiveForm([{"id":"user-email","name":"email","container":".field-user-email","input":"#user-email","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Введите ваш Email"});value = yii.validation.trim($form, attribute, []);yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Некорректный email ящик","enableIDN":false,"skipOnEmpty":1});yii.validation.string(value, messages, {"message":"Email must be a string.","max":255,"tooLong":"Email should contain at most 255 characters.","skipOnEmpty":1});}},{"id":"useradditional-site_url","name":"site_url","container":".field-useradditional-site_url","input":"#useradditional-site_url","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Введите домен"});yii.validation.url(value, messages, {"pattern":/^(http|https):\/\/(([A-Z0-9][A-Z0-9_-]*)(\.[A-Z0-9][A-Z0-9_-]*)+)/i,"message":"Сайт is not a valid URL.","enableIDN":false,"skipOnEmpty":1,"defaultScheme":"http"});}},{"id":"useradditional-fullname","name":"fullname","container":".field-useradditional-fullname","input":"#useradditional-fullname","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Введите ваше имя"});value = yii.validation.trim($form, attribute, []);yii.validation.string(value, messages, {"message":"Имя must be a string.","max":255,"tooLong":"Имя should contain at most 255 characters.","skipOnEmpty":1});}},{"id":"useradditional-phone","name":"phone","container":".field-useradditional-phone","input":"#useradditional-phone","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Введите ваш телефон"});value = yii.validation.trim($form, attribute, []);}},{"id":"userscoupons-hash","name":"hash","container":".field-userscoupons-hash","input":"#userscoupons-hash","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Код must be a string.","max":32,"tooLong":"Код should contain at most 32 characters.","skipOnEmpty":1});}}], []);
+jQuery('#recover_form').yiiActiveForm([{"id":"loginformrecover-email","name":"email","container":".field-loginformrecover-email","input":"#loginformrecover-email","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Введите ваш email"});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Не корректная почта","enableIDN":false,"skipOnEmpty":1});}}], []);
+jQuery('#login_form').yiiActiveForm([{"id":"loginform-email","name":"email","container":".field-loginform-email","input":"#loginform-email","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Введите ваш email"});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Не корректная почта","enableIDN":false,"skipOnEmpty":1});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","enableAjaxValidation":true,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Введите пароль"});}}], []);
+});</script></body>
+</html>

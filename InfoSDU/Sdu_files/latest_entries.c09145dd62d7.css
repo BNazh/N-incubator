@@ -1,0 +1,32 @@
+.content-placeholder .blog-latest-entries {
+    line-height: 15px;
+    padding: 0px 5px;
+    padding-left: 0px;
+}
+
+.content-placeholder .blog-latest-entries .news-item {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 15px;
+    padding-left: 0px;
+}
+
+.content-placeholder .blog-latest-entries .news-title {
+    margin: 5px 3px 10px;
+    height: 47px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #333;
+}
+
+.content-placeholder .blog-latest-entries .news-item .news-info {
+    font-size: 0.8em;
+    margin: 0 3px 5px;
+    color: #888;
+}
+
+.content-placeholder .news-block .item-header {
+    display: none;
+}
